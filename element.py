@@ -55,13 +55,6 @@ _ELEMENTS = dict(
                                                         #       if it will touch bomberman - it will die
     DEAD_MEAT_CHOPPER = 'x',                            # 'x' - you`d better kill this piece of ... meat you`ll get +100 point for it
                                                         #       this is chopper corpse
-
-    # Perks
-    BOMB_BLAST_RADIUS_INCREASE = '+',                   # '+' - Bomb blast radius increase. Applicable only to new bombs. The perk is temporary.
-    BOMB_COUNT_INCREASE = 'c',                          # 'c' - Increase available bombs count. Number of extra bombs can be set in settings. Temporary.
-    BOMB_IMMUNE = 'i',                                  # 'i' - Bomb blast not by timer but by second act. Number of RC triggers is limited and can be set in settings.
-    BOMB_REMOTE_CONTROL = 'r',                          # 'r' - Do not die after bomb blast (own bombs and others as well). Temporary.
-
     # Space
     NONE = ' '                                          # ' ' - this is the only place where you can move your Bomberman
 )

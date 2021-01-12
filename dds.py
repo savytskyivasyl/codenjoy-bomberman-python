@@ -40,6 +40,8 @@ class DirectionSolver:
 
     def get(self, board_string):
         """ The method that should be implemented."""
+        for i in list(map(' '.join, zip(*[iter(board_string)] * 23))):
+            print(i)
         self._board = Board(board_string)
         _command = Direction('ACT').to_string()
         print("Sending Command {}".format(_command))

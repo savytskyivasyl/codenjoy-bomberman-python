@@ -43,7 +43,7 @@ def main():
     assert version_info[0] == 3, "You should run me with Python 3.x"
 
     # substitute following link with the one you've copied in your browser after registration
-    url = "https://dojorena.io/codenjoy-contest/board/player/8aq9izxu40h7blnrd3l9?code=6712803793075447834&gameName=bomberman"
+    url = "http://bomberman.savytskyivasyl.com/codenjoy-contest/board/player/9fzmxq5j0hvcxcetjf4s?code=6462162249683355191&gameName=bomberman"
     direction_solver = DirectionSolver()
 
     wcl = WebClient(url=get_url_for_ws(url), solver=direction_solver)
